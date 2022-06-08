@@ -7,6 +7,7 @@ class App extends Component {
     return (
       <ContextProvider>
         <Child />
+        <h2>test</h2>
       </ContextProvider>
     );
   }
