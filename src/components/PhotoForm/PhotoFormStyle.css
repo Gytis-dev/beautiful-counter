@@ -1,0 +1,22 @@
+.form-wrapper{
+    border-bottom:1px solid grey;
+}
+
+form{
+    margin:20px auto;
+    width: 600px;
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+
+form div{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding:7px;
+    align-items: center;
+}
+form div input {
+    padding:10px;
+}

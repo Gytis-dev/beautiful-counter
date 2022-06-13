@@ -1,13 +1,15 @@
 import { Component } from "react";
-import ContextProvider from "./state/ContextProvider";
-import Child from "./Child";
 
 class App extends Component {
   render() {
     return (
-      <ContextProvider>
-        <Child />
-      </ContextProvider>
+      <div>
+        <nav>
+          <div className="checkas">
+            <button onClick={() => 1}>Click me</button>
+          </div>
+        </nav>
+      </div>
     );
   }
 }
